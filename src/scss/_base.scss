@@ -43,14 +43,22 @@ video {
 // base rules
 // ==================================== */
 
-.row + .row {
-  margin-top: 16px;
+header {
+  background-image: url(../img/leamo-header.webp);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+h1 {
+  font-family: "Archivo Black";
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  text-align: center;
 }
