@@ -61,11 +61,24 @@ h1 {
   color: var(--main-title-color);
   position: absolute;
   bottom: 10px;
-  left: 15px;
   text-align: center;
-  font-size: 100px;
   color: transparent;
   -webkit-text-stroke: 0.1px var(--main-title-color);
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-family: "Archivo Black";
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    color: var(--main-title-color);
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 0.1px var(--main-title-color);
+  }
 }
 
 hr {
