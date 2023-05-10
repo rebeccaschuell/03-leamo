@@ -72,6 +72,7 @@
 
 .swiper-container {
   margin: 0 auto;
+  display: flex;
 }
 
 .swiper-slide {
@@ -103,4 +104,17 @@
 
 img.click {
   padding: 0;
+}
+
+.carousel-prev {
+  top: 35%;
+  // justify-content: center;
+  // align-items: center;
+  // margin: auto;
+}
+
+.carousel-next {
+  top: 35%;
+  // top: 40px;
+  right: 5px;
 }
