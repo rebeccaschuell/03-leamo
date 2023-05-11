@@ -1,0 +1,17 @@
+.shop-text {
+  font-family: "Century Gothic";
+  color: var(--main-font-color);
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+  .shop-text {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+}
