@@ -17,3 +17,33 @@
   margin-right: auto;
   //   attention je pense pas que c est la boonne maniere de la centrer
 }
+
+.nav {
+  width: 100%;
+  height: 100%;
+  // height: 500px;
+  padding: 60px;
+  background: var(--background-color);
+  transform: translateX(-100%);
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+a {
+  font-family: "Century Gothic";
+  color: var(--main-font-color);
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-bottom: 38px;
+}
+
+.nav.is-open {
+  transform: translateX(0);
+}

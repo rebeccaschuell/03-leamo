@@ -1,0 +1,47 @@
+.footer-title {
+  font-family: "Century Gothic Bold";
+  color: var(--font-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 4px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-contact-button {
+  font-size: 30px;
+  line-height: 30px;
+  margin-right: 24px;
+}
+
+.footer-information-link {
+  font-family: "Century Gothic Bold";
+  color: var(--main-font-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.5;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-first-information-link {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.footer-last-information-link {
+  display: inline-block;
+  margin: none;
+}
+
+.footer-top-button img {
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

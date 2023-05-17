@@ -36,10 +36,37 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 1.5px;
+  margin: 0;
 }
 
 .valeur-image {
   margin-bottom: 50px;
+  width: 100vw;
+  max-inline-size: none;
+  margin-left: -12px;
+}
+
+@media (min-width: 576px) {
+  .valeur-title {
+    margin-top: 40px;
+  }
+
+  .valeur-image {
+    margin-left: calc((100vw - 540px) / -2);
+  }
+}
+
+@media (min-width: 768px) {
+  .valeur-image {
+    margin-left: 0;
+    margin-top: 100px;
+    width: 50vw;
+    margin-top: 50px;
+  }
+
+  .valeur-title {
+    margin-top: 70px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -47,7 +74,7 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 6px;
-    margin-top: 140px;
+    margin-top: 60px;
     margin-bottom: 20px;
   }
 
@@ -71,6 +98,18 @@
   }
 
   .valeur-image {
+    margin-left: 0;
     margin-top: 100px;
+    width: 50vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .valeur-title {
+    margin-top: 120px;
+  }
+
+  .valeur-image {
+    margin-bottom: 100px;
   }
 }

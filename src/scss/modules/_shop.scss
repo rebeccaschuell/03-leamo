@@ -7,11 +7,68 @@
   margin-top: 40px;
 }
 
+.shop-button {
+  border-radius: 50px;
+  background: none;
+  border: solid 2px var(--main-font-color);
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.shop-button-text {
+  font-family: "Century Gothic Bold";
+  color: var(--main-font-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.last-button {
+  margin-bottom: 40px;
+}
+
 @media (min-width: 992px) {
   .shop-text {
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 80px;
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .shop-buttons {
+    border-left: solid 1px var(--font-color);
+  }
+
+  .shop-button {
+    padding: 14px 24px;
+    margin: 0;
+  }
+
+  .first-button {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .last-button {
+    margin-bottom: 100px;
+  }
+
+  .shop-button-text {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2px;
   }
 }

@@ -6,6 +6,7 @@
   --font-color: #f6acb6;
   --main-font-color: #000000;
   --main-title-color: #ffffff;
+  --background-color: #f8ebe1;
 }
 /* ====================================
 // reset rules
@@ -19,6 +20,8 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: var(--background-color);
 }
 
 body {
@@ -64,13 +67,15 @@ h1 {
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 0.1px var(--main-title-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 992px) {
   h1 {
     font-size: 300px;
     line-height: 300px;
-    -webkit-text-stroke: 1.5px var(--main-title-color);
+    -webkit-text-stroke: 7px var(--main-title-color);
   }
 }
 
