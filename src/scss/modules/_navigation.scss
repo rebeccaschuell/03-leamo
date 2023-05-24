@@ -1,3 +1,20 @@
+.burger {
+  position: relative;
+  z-index: 20;
+  p:nth-child(2) {
+    display: none;
+  }
+}
+
+.burger.burger-open.is-active {
+  p:nth-child(1) {
+    display: none;
+  }
+  p:nth-child(2) {
+    display: block;
+  }
+}
+
 .navigation {
   background-color: var(--main-color);
   display: flex;
@@ -44,6 +61,25 @@ a {
   margin-bottom: 38px;
 }
 
+a:hover {
+  color: var(--main-color);
+  font-weight: 700;
+  // text-decoration: underline;
+}
+
 .nav.is-open {
   transform: translateX(0);
+}
+
+@media (min-width: 992px) {
+  a {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+
+  i {
+    font-size: 25px;
+  }
 }

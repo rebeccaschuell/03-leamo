@@ -34,6 +34,16 @@
   margin-bottom: 40px;
 }
 
+@media (min-width: 768px) {
+  .shop-button {
+    margin-top: 40px;
+  }
+
+  .last-button {
+    margin-top: 20px;
+  }
+}
+
 @media (min-width: 992px) {
   .shop-text {
     font-size: 40px;

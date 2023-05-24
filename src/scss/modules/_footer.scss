@@ -37,6 +37,10 @@
   margin: none;
 }
 
+.footer-top-button {
+  margin-bottom: 0px;
+}
+
 .footer-top-button img {
   height: 40px;
   display: block;
@@ -44,4 +48,45 @@
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .footer-title {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 6px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .footer-contact-button {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .footer-information-link {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2;
+    margin-bottom: 20px;
+  }
+
+  .footer-top-button img {
+    height: 50px;
+    margin-bottom: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .footer-last-information-link {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-top-button img {
+    right: 40px;
+  }
 }

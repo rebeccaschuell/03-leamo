@@ -36,3 +36,4 @@ var openNav = function () {
 };
 
 burgerVar.addEventListener("click", openNav);
+navVar.addEventListener("click", openNav);
