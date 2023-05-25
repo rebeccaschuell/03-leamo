@@ -10,22 +10,24 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <div class="navigation" id="top">
+  <body id="top">
+    <div class="navigation">
       <div class="burger burger-open">
-        <p>open</p>
-        <p>close</p>
+        <img src="../src/img/open.webp" alt="open" />
+        <img src="../src/img/close.webp" alt="close" />
       </div>
       <nav class="nav">
         <ul>
           <div class="sections">
             <div class="container">
               <div class="row">
-                <div class="col-11">
-                  <a href="#section-valeurs">nos valeurs</a>
+                <div class="col-10 col-sm-11">
+                  <a href="#section-valeurs" class="first-section"
+                    >nos valeurs</a
+                  >
                 </div>
                 <div class="col-1">
-                  <i class="fa-solid fa-chevron-right"></i>
+                  <i class="fa-solid fa-chevron-right first-section"></i>
                 </div>
               </div>
             </div>
@@ -33,7 +35,7 @@
           <div class="sections">
             <div class="container">
               <div class="row">
-                <div class="col-11">
+                <div class="col-10 col-sm-11">
                   <a href="#section-crafts">nos crafts</a>
                 </div>
                 <div class="col-1">
@@ -45,7 +47,7 @@
           <div class="sections">
             <div class="container">
               <div class="row">
-                <div class="col-11">
+                <div class="col-10 col-sm-11">
                   <a href="#section-cocktails">nos cocktails</a>
                 </div>
                 <div class="col-1">
@@ -57,7 +59,7 @@
           <div class="sections">
             <div class="container">
               <div class="row">
-                <div class="col-11">
+                <div class="col-10 col-sm-11">
                   <a href="#section-alterfood">alterfood</a>
                 </div>
                 <div class="col-1">
@@ -69,7 +71,7 @@
           <div class="sections">
             <div class="container">
               <div class="row">
-                <div class="col-11">
+                <div class="col-10 col-sm-11">
                   <a href="#section-vente">points de vente</a>
                 </div>
                 <div class="col-1">
@@ -81,8 +83,8 @@
           <div class="sections">
             <div class="container">
               <div class="row">
-                <div class="col-11">
-                  <a href="#section-shop">shop en ligne</a>
+                <div class="col-10 col-sm-11">
+                  <a href="#section-vente">shop en ligne</a>
                 </div>
                 <div class="col-1">
                   <i class="fa-solid fa-chevron-right"></i>
@@ -93,7 +95,7 @@
           <div class="sections">
             <div class="container">
               <div class="row">
-                <div class="col-11">
+                <div class="col-10 col-sm-11">
                   <a href="#section-contact">contact</a>
                 </div>
                 <div class="col-1">
@@ -107,6 +109,15 @@
       <div class="logo">
         <img src="../src/img/logo-leamo.png" alt="logo leamo" />
       </div>
+      <div class="languages">
+        <p>fr</p>
+      </div>
+      <div class="languages">
+        <p>en</p>
+      </div>
+      <div class="languages">
+        <p>de</p>
+      </div>
     </div>
     <header>
       <div class="container">
@@ -116,10 +127,11 @@
       </div>
     </header>
     <main>
+      <div class="id" id="section-valeurs"></div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6">
-            <h3 class="valeur-title" id="section-valeurs">Nos valeurs</h3>
+            <h3 class="valeur-title">Nos valeurs</h3>
             <p class="valeur-text">
               Les boissons Leamo sont des softs rafraîchissants, bio, et
               naturels, parfaits pour accompagner des moments de détente.
@@ -145,12 +157,11 @@
         </div>
       </div>
       <hr />
+      <div class="id2" id="section-crafts"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="crafts-title" id="section-crafts">
-              Nos crafts rafraîchissants
-            </h3>
+            <h3 class="crafts-title">Nos crafts rafraîchissants</h3>
           </div>
           <div class="col-12">
             <div class="swiper-container">
@@ -261,12 +272,11 @@
         </div>
       </div>
       <hr />
+      <div class="id2" id="section-cocktails"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="cocktails-title" id="section-cocktails">
-              nos cocktails
-            </h3>
+            <h3 class="cocktails-title">nos cocktails</h3>
           </div>
           <div class="col-12">
             <p class="cocktails-text">
@@ -349,12 +359,11 @@
         </div>
       </div>
       <hr />
+      <div class="id2" id="section-alterfood"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="alterfood-title" id="section-alterfood">
-              a propos d'alterfood
-            </h3>
+            <h3 class="alterfood-title">a propos d'alterfood</h3>
           </div>
           <div class="col-12">
             <p class="alterfood-text">
@@ -458,10 +467,11 @@
         </div>
       </div>
       <hr />
+      <div class="id2" id="section-vente"></div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-8">
-            <p class="shop-text" id="section-vente section-shop">
+            <p class="shop-text">
               Trouvez nos boissons dans nos boutiques ainsi que sur notre shop
               en ligne !
             </p>
@@ -491,11 +501,12 @@
         </div>
       </div>
       <hr />
+      <div class="id2" id="section-contact"></div>
       <div class="container">
         <div class="row">
           <div class="col-6 offset-md-1 col-md-5">
             <div class="row">
-              <h3 class="footer-title" id="section-contact">Leamo</h3>
+              <h3 class="footer-title">Leamo</h3>
               <div class="col-3">
                 <a href="https://leamo.fr/" class="footer-contact-button"
                   ><i class="fa-regular fa-envelope"></i
@@ -561,7 +572,7 @@
               >déclaration de protection des données</a
             >
           </div>
-          <div class="col-12 offset-5">
+          <div class="back-top">
             <a href="#top" class="footer-top-button">
               <img
                 src="../src/img/up.webp"

@@ -19,15 +19,6 @@ const swiper = new Swiper(".swiper-container", {
   },
 });
 
-// var burgerVar = document.querySelector(".burger");
-// var navVar = document.querySelector(".nav");
-
-// var openNav = function () {
-//   navVar.classList.toggle("is-open");
-// };
-
-// burgerVar.addEventListener("click", openNav);
-
 var burgerVar = document.querySelector(".burger");
 var navVar = document.querySelector(".nav");
 var openNav = function () {

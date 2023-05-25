@@ -1,16 +1,24 @@
+.id {
+  transform: translateY(-120px);
+}
+
+.id2 {
+  transform: translateY(-90px);
+}
+
 .burger {
   position: relative;
   z-index: 20;
-  p:nth-child(2) {
+  img:nth-child(2) {
     display: none;
   }
 }
 
 .burger.burger-open.is-active {
-  p:nth-child(1) {
+  img:nth-child(1) {
     display: none;
   }
-  p:nth-child(2) {
+  img:nth-child(2) {
     display: block;
   }
 }
@@ -22,6 +30,9 @@
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 15px;
+  position: fixed;
+  z-index: 30;
+  width: 100%;
 }
 
 .navigation img {
@@ -32,13 +43,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  //   attention je pense pas que c est la boonne maniere de la centrer
+  z-index: 32;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
 }
 
 .nav {
   width: 100%;
   height: 100%;
-  // height: 500px;
   padding: 60px;
   background: var(--background-color);
   transform: translateX(-100%);
@@ -47,6 +61,11 @@
   top: 0;
   left: 0;
   z-index: 3;
+  top: 108px;
+}
+
+.first-section {
+  margin-top: 100px;
 }
 
 a {
@@ -64,14 +83,30 @@ a {
 a:hover {
   color: var(--main-color);
   font-weight: 700;
-  // text-decoration: underline;
 }
 
 .nav.is-open {
   transform: translateX(0);
 }
 
+// .navigation.nav.is-open {
+//   background-color: var(--main-color);
+// }
+
+.languages {
+  display: none;
+  z-index: 32;
+}
+
 @media (min-width: 992px) {
+  // .navigation {
+  //   background-color: var(--main-color);
+  // }
+  .burger {
+    margin-left: 30px;
+    width: 100px;
+  }
+
   a {
     font-size: 24px;
     line-height: 34px;
@@ -81,5 +116,25 @@ a:hover {
 
   i {
     font-size: 25px;
+  }
+
+  .languages {
+    display: block;
+    font-family: "Century Gothic Bold";
+    color: var(--main-title-color);
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    // margin-top: 20px;
+    margin-right: 50px;
+  }
+
+  .languages:hover {
+    color: var(--font-color);
+  }
+
+  .navigation .logo {
+    margin-right: 0;
+    margin-left: 120px;
   }
 }
