@@ -61,11 +61,11 @@
   top: 0;
   left: 0;
   z-index: 3;
-  top: 108px;
+  top: 100px;
 }
 
 .first-section {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 a {
@@ -89,19 +89,12 @@ a:hover {
   transform: translateX(0);
 }
 
-// .navigation.nav.is-open {
-//   background-color: var(--main-color);
-// }
-
 .languages {
   display: none;
   z-index: 32;
 }
 
 @media (min-width: 992px) {
-  // .navigation {
-  //   background-color: var(--main-color);
-  // }
   .burger {
     margin-left: 30px;
     width: 100px;
@@ -125,7 +118,7 @@ a:hover {
     text-transform: uppercase;
     font-size: 24px;
     line-height: 28px;
-    // margin-top: 20px;
+
     margin-right: 50px;
   }
 
@@ -136,5 +129,13 @@ a:hover {
   .navigation .logo {
     margin-right: 0;
     margin-left: 120px;
+  }
+
+  .nav {
+    top: 108px;
+  }
+
+  .first-section {
+    margin-top: 100px;
   }
 }
