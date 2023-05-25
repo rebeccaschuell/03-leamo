@@ -17,6 +17,15 @@
   margin-bottom: 20px;
 }
 
+.cocktails-group-image-1 {
+  display: block;
+  text-decoration: none;
+}
+
+.cocktails-group-image-2 {
+  display: none;
+}
+
 .cocktails-legend {
   font-family: "Century Gothic Bold";
   color: var(--main-font-color);
@@ -25,15 +34,6 @@
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
-}
-
-.cocktails-group-image-1 {
-  display: block;
-  text-decoration: none;
-}
-
-.cocktails-group-image-2 {
-  display: none;
 }
 
 .cocktails-button {
@@ -73,6 +73,15 @@
     margin-bottom: 40px;
   }
 
+  .cocktails-group-image-1 {
+    display: none;
+  }
+
+  .cocktails-group-image-2 {
+    display: block;
+    text-decoration: none;
+  }
+
   .cocktails-legend {
     font-size: 20px;
     line-height: 24px;
@@ -93,14 +102,5 @@
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 2px;
-  }
-
-  .cocktails-group-image-2 {
-    display: block;
-    text-decoration: none;
-  }
-
-  .cocktails-group-image-1 {
-    display: none;
   }
 }
