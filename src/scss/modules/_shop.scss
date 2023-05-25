@@ -60,11 +60,14 @@
 
   .shop-buttons {
     border-left: solid 1px var(--font-color);
-  }
-
-  .shop-button {
     padding: 14px 24px;
     margin: 0;
+  }
+
+  .shop-button-text {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2px;
   }
 
   .first-button {
@@ -74,11 +77,5 @@
 
   .last-button {
     margin-bottom: 100px;
-  }
-
-  .shop-button-text {
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 2px;
   }
 }
