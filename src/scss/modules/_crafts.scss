@@ -9,37 +9,6 @@
   margin-bottom: 20px;
 }
 
-.crafts-legend {
-  font-family: "Century Gothic Bold";
-  color: var(--main-font-color);
-  font-size: 14px;
-  line-height: 18px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.crafts-button {
-  border-radius: 50px;
-  background: none;
-  border: solid 2px var(--main-font-color);
-  padding: 10px 16px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-}
-
-.crafts-button-text {
-  font-family: "Century Gothic Bold";
-  color: var(--main-font-color);
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 1.5px;
-  margin: 0;
-}
-
 .swiper-container {
   margin: 0 auto;
   display: flex;
@@ -83,6 +52,37 @@ img.click {
   width: 25px;
 }
 
+.crafts-legend {
+  font-family: "Century Gothic Bold";
+  color: var(--main-font-color);
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.crafts-button {
+  border-radius: 50px;
+  background: none;
+  border: solid 2px var(--main-font-color);
+  padding: 10px 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.crafts-button-text {
+  font-family: "Century Gothic Bold";
+  color: var(--main-font-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
 @media (min-width: 992px) {
   .crafts-title {
     font-size: 20px;
@@ -90,6 +90,10 @@ img.click {
     letter-spacing: 6px;
     margin-top: 100px;
     margin-bottom: 20px;
+  }
+
+  .crafts-image {
+    height: 400px;
   }
 
   .crafts-legend {
@@ -109,9 +113,5 @@ img.click {
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 2px;
-  }
-
-  .crafts-image {
-    height: 400px;
   }
 }
