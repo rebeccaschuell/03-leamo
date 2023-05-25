@@ -72,13 +72,13 @@ h1 {
   margin-right: auto;
 }
 
-// @media (min-width: 768px) {
-//   h1 {
-//     font-size: 155px;
-//     line-height: 155px;
-//     -webkit-text-stroke: 0.1px var(--main-title-color);
-//   }
-// }
+@media (min-width: 768px) {
+  h1 {
+    font-size: 155px;
+    line-height: 155px;
+    -webkit-text-stroke: 2px var(--main-title-color);
+  }
+}
 
 @media (min-width: 992px) {
   h1 {

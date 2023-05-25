@@ -17,25 +17,6 @@
   margin-bottom: 20px;
 }
 
-.alterfood-legend {
-  font-family: "Century Gothic Bold";
-  color: var(--main-font-color);
-  font-size: 14px;
-  line-height: 18px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.alterfood-group-image-1 {
-  display: block;
-  text-decoration: none;
-}
-
-.alterfood-group-image-2 {
-  display: none;
-}
-
 .alterfood-button {
   border-radius: 50px;
   background: none;
@@ -58,6 +39,25 @@
   margin: 0;
 }
 
+.alterfood-group-image-1 {
+  display: block;
+  text-decoration: none;
+}
+
+.alterfood-group-image-2 {
+  display: none;
+}
+
+.alterfood-legend {
+  font-family: "Century Gothic Bold";
+  color: var(--main-font-color);
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .alterfood-last-legend {
   margin-bottom: 40px;
 }
@@ -77,13 +77,6 @@
     margin-bottom: 40px;
   }
 
-  .alterfood-legend {
-    font-size: 20px;
-    line-height: 24px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-  }
-
   .alterfood-button {
     padding: 14px 24px;
     margin: 0;
@@ -97,12 +90,19 @@
     letter-spacing: 2px;
   }
 
+  .alterfood-group-image-1 {
+    display: none;
+  }
+
   .alterfood-group-image-2 {
     display: block;
     text-decoration: none;
   }
 
-  .alterfood-group-image-1 {
-    display: none;
+  .alterfood-legend {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
 }
